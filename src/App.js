@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import UseRef from "./components/codeSplitting/UseRef";
+// import ParentOne from "./components/OptimizationParent/ParentOne";
+// import ChildOne from "./components/OptimizationParent/ChildOne";
+// import ChildTwo from "./components/OptimizationParent/ChildTwo";
+// import Parent from "./components/relations/Parent";
+// import ObjectUseState from "./components/ObjectUseState";
+// import UseReducer from "./components/UseReducer";
+// import UseState from "./components/UseState";
 
 function App() {
+  // const mathRef = React.createRef();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseState /> */}
+      {/* <UseReducer /> */}
+      {/* <ObjectUseState /> */}
+      {/* <Parent /> */}
+      {/* <ParentOne>
+        <ChildOne />
+        <ChildTwo />
+      </ParentOne> */}
+      <UseRef />
     </div>
   );
 }
