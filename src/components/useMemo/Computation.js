@@ -20,6 +20,7 @@ function Computation() {
     dateOfBirth: 1878,
     owner: "Erfan",
   };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const memoizedFactoryInfo = useMemo(() => factoryInfo, []);
 
   return (

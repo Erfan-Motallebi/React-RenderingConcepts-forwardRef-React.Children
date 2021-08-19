@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
-import Computation from "./components/useMemo/Computation";
+import ParentContext from "./components/useContext/ParentContext";
+// import Computation from "./components/useMemo/Computation";
 // import MainComputation from "./components/useCallback/MainComputation";
 // import GrandPa from "./components/Ancesters/GrandPa";
 // import ParentOne from "./components/Ancesters/ParentOne";
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Computation />
+      <ParentContext />
     </div>
   );
 }
