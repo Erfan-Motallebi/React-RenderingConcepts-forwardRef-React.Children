@@ -1,6 +1,9 @@
 import "./App.css";
 import React from "react";
-import UseRef from "./components/codeSplitting/UseRef";
+import GrandPa from "./components/Ancesters/GrandPa";
+import ParentOne from "./components/Ancesters/ParentOne";
+import ChildOne from "./components/Ancesters/ChildOne";
+// import UseRef from "./components/codeSplitting/UseRef";
 // import ParentOne from "./components/OptimizationParent/ParentOne";
 // import ChildOne from "./components/OptimizationParent/ChildOne";
 // import ChildTwo from "./components/OptimizationParent/ChildTwo";
@@ -22,7 +25,13 @@ function App() {
         <ChildOne />
         <ChildTwo />
       </ParentOne> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <GrandPa />
+      {/* <GrandPa>
+        <ParentOne>
+          <ChildOne />
+        </ParentOne>
+      </GrandPa> */}
     </div>
   );
 }
