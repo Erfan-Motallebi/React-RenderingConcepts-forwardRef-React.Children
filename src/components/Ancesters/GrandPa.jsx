@@ -15,7 +15,7 @@ function GrandPa() {
         voteDown
       </button>{" "}
       <br />
-      <button onClick={setCount.bind(null, count + 1)}>voteUp</button>
+      <button onClick={() => setCount((c) => c + 1)}>voteUp</button>
       <ParentOne count={count}>
         <ChildOne />
       </ParentOne>

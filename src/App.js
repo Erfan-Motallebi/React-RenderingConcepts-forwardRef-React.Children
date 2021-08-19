@@ -1,8 +1,10 @@
 import "./App.css";
 import React from "react";
-import GrandPa from "./components/Ancesters/GrandPa";
-import ParentOne from "./components/Ancesters/ParentOne";
-import ChildOne from "./components/Ancesters/ChildOne";
+import Computation from "./components/useMemo/Computation";
+// import MainComputation from "./components/useCallback/MainComputation";
+// import GrandPa from "./components/Ancesters/GrandPa";
+// import ParentOne from "./components/Ancesters/ParentOne";
+// import ChildOne from "./components/Ancesters/ChildOne";
 // import UseRef from "./components/codeSplitting/UseRef";
 // import ParentOne from "./components/OptimizationParent/ParentOne";
 // import ChildOne from "./components/OptimizationParent/ChildOne";
@@ -17,21 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <UseState /> */}
-      {/* <UseReducer /> */}
-      {/* <ObjectUseState /> */}
-      {/* <Parent /> */}
-      {/* <ParentOne>
-        <ChildOne />
-        <ChildTwo />
-      </ParentOne> */}
-      {/* <UseRef /> */}
-      <GrandPa />
-      {/* <GrandPa>
-        <ParentOne>
-          <ChildOne />
-        </ParentOne>
-      </GrandPa> */}
+      <Computation />
     </div>
   );
 }

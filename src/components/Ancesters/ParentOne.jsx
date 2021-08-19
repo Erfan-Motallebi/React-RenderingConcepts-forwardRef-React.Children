@@ -12,4 +12,4 @@ function ParentOne({ count, children }) {
   );
 }
 
-export default memo(ParentOne, ({ count }) => (count > 0 ? false : true));
+export default memo(ParentOne);
